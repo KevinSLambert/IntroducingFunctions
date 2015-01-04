@@ -17,7 +17,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *myName = @"Kevin Lambert";
+    countDownTillIntroduction(4);
+    printIntroductions(myName);
+
+    
     return YES;
+}
+
+void *printIntroductions (NSString *name){
+    NSString *introduction = [NSString stringWithFormat:@"My name is %@", name];
+    NSString *japaneseIntroduction = [name stringByAppendingString:@" to moushimasu"];
+    NSLog(@"%@",introduction);
+    NSLog(@"%@",japaneseIntroduction);
+    
+    return 0;
+}
+
+void countDownTillIntroduction (int numberOfDays)
+{
+    if (numberOfDays == 0){
+        NSLog(@"The time has come");
+    }
+    else{
+        NSLog(@"%d days left until introductions", numberOfDays);
+        int oneLessDay = numberOfDays - 1;
+        countDownTillIntroduction(oneLessDay);
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
