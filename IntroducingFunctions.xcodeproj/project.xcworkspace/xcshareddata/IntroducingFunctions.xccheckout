@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CD4071FB-D4BA-4787-80DB-BFE5960DF8A4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IntroducingFunctions</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6123369DAE6C399918C2B1DBC5F2742EA9742B71</key>
+		<string>https://github.com/KevinSLambert/IntroducingFunctions.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IntroducingFunctions.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6123369DAE6C399918C2B1DBC5F2742EA9742B71</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KevinSLambert/IntroducingFunctions.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6123369DAE6C399918C2B1DBC5F2742EA9742B71</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6123369DAE6C399918C2B1DBC5F2742EA9742B71</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IntroducingFunctions</string>
+		</dict>
+	</array>
+</dict>
+</plist>

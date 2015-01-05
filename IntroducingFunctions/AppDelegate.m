@@ -26,13 +26,11 @@
     return YES;
 }
 
-void *printIntroductions (NSString *name){
+void printIntroductions (NSString *name){
     NSString *introduction = [NSString stringWithFormat:@"My name is %@", name];
     NSString *japaneseIntroduction = [name stringByAppendingString:@" to moushimasu"];
     NSLog(@"%@",introduction);
     NSLog(@"%@",japaneseIntroduction);
-    
-    return 0;
 }
 
 void countDownTillIntroduction (int numberOfDays)
@@ -42,7 +40,7 @@ void countDownTillIntroduction (int numberOfDays)
     }
     else{
         NSLog(@"%d days left until introductions", numberOfDays);
-        int oneLessDay = numberOfDays - 1;
+        int oneLessDay = --numberOfDays;
         countDownTillIntroduction(oneLessDay);
     }
 }
